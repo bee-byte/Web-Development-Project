@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--BRITTNEY BOWERS -CLASS 1-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link href="end of module project.css" rel="stylesheet">
+    <title>User Profiles of the Manchester United Football Academy</title>
+</head>
+<body>
+
+    <div class="bg-image">
+        <div class="opacity-bg">
+
+            <!-- A navbar -->
+            <nav class="navbar bg-grey">
+                <!-- Links -->
+                <ul class="topnav">
+                    <li>
+                        <a href="home.html">Home</a>
+                        <a href="newsfeed.html">News Feed</a>
+                        <a href="admin.html">Admin</a>
+                    </li>
+                </ul> 
+                <button type="button" class="add-new-user btn btn-secondary" data-toggle="modal" data-target="#input-form">Add New User</button>
+            </nav>
+            
+            <!--/.Navbar -->
+
+            <!--Heading-->
+            <h1><b>MANCHESTER UNITED FOOTBALL ACADEMY</b></h1>
+
+            <!--Content-->
+            <div class="row">
+                <!--Card 1-->
+                <div class="card">
+                    <div class="inner-content" type="button" data-toggle="modal" data-target="#card-1-modal">
+                        <img src="profile picture 1.jpg" alt="Avatar" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Coach</h4>
+                            <p class="card-text">Ole Gunner Solskjaer</p>
+                            <p class="card-text">olegs@munfootballacademy.com</p>
+                            <p class="card-text">0793087574</p>
+                            <p class="card-text">0215486789</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#confirmation-message">Delete User</button>
+                    </div>
+                </div>
+
+                <!-- Card 1 Modal -->
+                <div class="modal fade" id="card-1-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">OG.Solskjaer - more info</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>24 London Road , PORTSMOUTH , PO42 8HV</p>
+                            <p>Yolanda Solskjaer</p>
+                            <p>Wife</p>
+                            <p>0748517845 , yolanda.solskajaer@yahoo.com</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!--Card 1 End of modal-->
+
+                <!--Card 2 -->
+                <div class="card">
+                    <div class="inner-content" type="button" data-toggle="modal" data-target="#card-2-modal">
+                        <img src="profile picture 2.jpg" alt="Avatar" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Football Player - Midfielder</h4>
+                            <p class="card-text">Scott McTomminay</p>
+                            <p class="card-text">scottmc@munfootballacademy.com</p>
+                            <p class="card-text">07945815487</p>
+                            <p class="card-text">0800564897</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#confirmation-message">Delete User</button>
+                    </div>
+                </div>      
+
+                <!--Card 2 Modal -->
+                <div class="modal fade" id="card-2-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel2"> S.McTomminay - more info</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>94 Church Lane CAMBRIDGE CB22 6VH</p>
+                            <p>Kaylen McTomminay</p>
+                            <p>Mother</p>
+                            <p>0731297642 - kaylenmct@gmail.com</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!--Card 2 End of modal-->
+
+                <!--Card 3 -->
+                <div class="card">
+                    <div class="inner-content" type="button" data-toggle="modal" data-target="#card-3-modal">
+                        <img src="andreas-pereira-manchester-united-2019-20_143.jpg" alt="Avatar" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Football Player - Midfielder</h4>
+                            <p class="card-text">Andreas Pereria</p>
+                            <p class="card-text">andreasp@munfootballacademy.com</p>
+                            <p class="card-text">07945815487</p>
+                            <p class="card-text">0800564897</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#confirmation-message">Delete User</button>
+                    </div>        
+                </div>
+
+                <!--Card 3 Modal -->
+                <div class="modal fade" id="card-3-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel3"> A.Perreria - more info</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>72 West Street SALISBURY SP72 7UF</p>
+                            <p>Tiffany Perreria</p>
+                            <p>Wife</p>
+                            <p>0615872431 - tiffanyp@yahoo.co.uk</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!--Card 3 End of modal--> 
+
+                <!--Card 4 -->
+                <div class="card">
+                    <div class="inner-content" type="button" data-toggle="modal" data-target="#card-4-modal">
+                        <img src="profile picture 4.jpg" alt="Avatar" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Football Player - Goalkeeper</h4>
+                            <p class="card-text">David De Gea</p>
+                            <p class="card-text">davidg@munfootballacademy.com</p>
+                            <p class="card-text">07945815487</p>
+                            <p class="card-text">0800564897</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#confirmation-message">Delete User</button>
+                    </div>
+                </div>
+                
+                        <!--Card 4 Modal -->
+                <div class="modal fade" id="card-4-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel4"> D. De Gea - more info</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>30 York Road COLCHESTER CO17 2UN</p>
+                            <p>Cindy De Gea</p>
+                            <p>Wife</p>
+                            <p>0815247813 - cindydegea@outlook.co.uk</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div> 
+                <!--Card 4 End of modal-->   
+
+                <!--Card 5-->
+                <div class="card">
+                    <div class="inner-content" type="button" data-toggle="modal" data-target="#card-5-modal">
+                        <img src="Daniel James.jpg" alt="Avatar" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Football Player - Striker</h4>
+                            <p class="card-text">Daniel James</p>
+                            <p class="card-text">danielj@munfootballacademy.com</p>
+                            <p class="card-text">07945815487</p>
+                            <p class="card-text">0800564897</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#confirmation-message">Delete User</button>
+                    </div>
+                </div>
+                        <!--Card 5 Modal -->
+                <div class="modal fade" id="card-5-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel5"> D.James - more info</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>35 York Road COLCHESTER CO17 2UN</p>
+                            <p>Shayna James</p>
+                            <p>Wife</p>
+                            <p>0662334026 - shaynaj@outlook.co.uk</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!--Card 5 End of modal-->
+                    
+                <!--Card 6-->
+                <div class="card">
+                    <div class="inner-content" type="button" data-toggle="modal" data-target="#card-6-modal">
+                        <img src="diogo dalot.jpg" alt="Avatar" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Football Player - Defender</h4>
+                            <p class="card-text">Diogo Dalot</p>
+                            <p class="card-text">diogod@munfootballacademy.com</p>
+                            <p class="card-text">07945815487</p>
+                            <p class="card-text">0800564897</p>
+                        </div>
+                    </div>    
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#confirmation-message">Delete User</button>
+                    </div>
+                </div>
+                
+                <!--Card 6 Modal -->
+                <div class="modal fade" id="card-6-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel6"> D.Dalot - more info</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>30 York Road COLCHESTER CO17 2UN</p>
+                            <p>Brittney Dalot</p>
+                            <p>Wife</p>
+                            <p>0745861234 - brittneydee@outlook.co.uk</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!--Card 6 End of modal--> 
+            
+                    <!--Card 7-->
+                <div class="card">
+                    <div class="inner-content" type="button" data-toggle="modal" data-target="#card-7-modal">
+                        <img src="anthony-martial-.jpg" alt="Avatar" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Football Player - Striker</h4>
+                            <p class="card-text">Anthony Martial</p>
+                            <p class="card-text">anthonym@munfootballacademy.com</p>
+                            <p class="card-text">07945815487</p>
+                            <p class="card-text">0800564897</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#confirmation-message">Delete User</button>
+                    </div>
+                </div>
+
+                    <!--Card 7 Modal -->
+                <div class="modal fade" id="card-7-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel7"> Martial - more info</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>30 York Road COLCHESTER CO17 2UN</p>
+                            <p>Carmen Martial</p>
+                            <p>Wife</p>
+                            <p>0758694213 - carmenmartial@outlook.co.uk</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>  
+                <!--Card 7 End of modal-->  
+
+                    <!--Card 8 -->
+                <div class="card">
+                    <div class="inner-content" type="button" data-toggle="modal" data-target="#card-8-modal">
+                        <img src="jesse lingard.jpg" alt="Avatar" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Football Player - Striker</h4>
+                            <p class="card-text">Jesse Lingard</p>
+                            <p class="card-text">jessel@munfootballacademy.com</p>
+                            <p class="card-text">07945815487</p>
+                            <p class="card-text">0800564897</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#confirmation-message">Delete User</button>
+                    </div>
+                </div>
+                <!--Card 8 Modal -->
+                <div class="modal fade" id="card-8-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel8"> J.Lingard - more info</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>26 York Road COLCHESTER CO17 2UN</p>
+                            <p>Courtney Lingard</p>
+                            <p>Wife</p>
+                            <p>0781245896 - courtneylingard@outlook.co.uk</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div> 
+                <!--Card 8 End of modal-->
+                    
+                <!--Card 9 -->
+                <div class="card">
+                    <div class="inner-content" type="button" data-toggle="modal" data-target="#card-9-modal">
+                        <img src="markus rashford.jpg" alt="Avatar" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Football Player - Midfielder</h4>
+                            <p class="card-text">Markus Rashford</p>
+                            <p class="card-text">markusr@munfootballacademy.com</p>
+                            <p class="card-text">07945815487</p>
+                            <p class="card-text">0800564897</p>
+                        </div>
+                    </div>y
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#confirmation-message">Delete User</button>
+                    </div>
+                </div>
+                
+                <!--Card 9 Modal -->
+                <div class="modal fade" id="card-9-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel9"> M.Rashford - more info</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>10 York Road COLCHESTER CO17 2UN</p>
+                            <p>Anushka Rashford</p>
+                            <p>Wife</p>
+                            <p>0727770947 - anushkarsahford@outlook.co.uk</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>   
+                <!--Card 9 End of modal-->
+
+                <!--Delete Confirmation Modal-->
+                <div class="modal fade" id="confirmation-message" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal title">Delete User</h4>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>User deleted.</p>
+                            </div>
+                            <div class="modal footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Delete confirmation Modal ending-->
+
+                <!--Add user form-->
+                <div class="modal fade" id="input-form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <label>Add New User</label>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body"> 
+                                <form>
+                                    <div class="">
+                                        <label>First and Last Name</label>
+                                        <input type="text" class="form-control" placeholder="First name"required>
+                                        <label>Cellphone Number</label>
+                                        <input type="number" class="form-control" placeholder="Cellphone number"required>
+                                        <label>Email Address</label>
+                                        <input type="email" class="form-control" placeholder="Email Address"required>
+                                        <label>Landline number</label>
+                                        <input type="number" class="form-control" placeholder="Landline number"required>
+                                        <label> Home Address</label>
+                                        <input type="address" class="form-control" placeholder="Address"required>
+                                        <label>Next of kin full name</label>
+                                        <input type="text" class="form-control" placeholder="Full name"required>
+                                        <label>Next of kin relationship</label>
+                                        <input type="text" class="form-control" placeholder="Relationship"required>
+                                        <label>Next of kin cellphone number</label>
+                                        <input type="number" class="form-control" placeholder="Cellphone number"required>
+                                        <label>Next of kin email address</label>
+                                        <input type="email" class="form-control" placeholder="Email Address"required>
+                                    </div>
+                                    <input type="submit" class="btn btn-secondary mb-2 mt-2" value="Submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    
+</body>
+</html>
